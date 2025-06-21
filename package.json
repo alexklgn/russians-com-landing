@@ -1,0 +1,28 @@
+{
+  "name": "russians-com-landing",
+  "version": "1.0.0",
+  "description": "Landing page for russians.com with dramatic 'GOD IS WITH US' header",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required - static site'",
+    "start": "npx serve . -s",
+    "deploy": "vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderkulagin/russians-com-landing.git"
+  },
+  "keywords": [
+    "landing-page",
+    "russians",
+    "faith",
+    "community",
+    "vercel"
+  ],
+  "author": "Alexander Kulagin",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
